@@ -1,0 +1,30 @@
+# 编译产物
+*.exe
+*.out
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 进度文件（个人学习进度不应提交）
+*.jiangou_progress.json
+*.code-tutor_progress.json
+
+# 学习材料中的编译产物
+example-output/**/race_condition
+example-output/**/mutex_safe
+example-output/**/local_variable
+example-output/**/unsafe_vector
+example-output/**/readonly_shared
